@@ -29,7 +29,7 @@ class DHT11Result:
 
 
 class DHT11:
-    "DHT11 sensor reader class for ODROID SBCs"
+    "DHT11 sensor reader class for Orange Pi SBCs"
 
     __pin = 0
 
