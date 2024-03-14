@@ -1,10 +1,12 @@
-# DHT11 Python library (for ODROID WiringPi)
+# DHT11 Python library (for Orange Pi WiringPi)
 
-This simple class can be used for reading temperature and humidity values from DHT11 sensor on ODROID SBCs.
+This simple class can be used for reading temperature and humidity values from DHT11 sensor on Orange pi SBCs.
 
-Based on [szazo/DHT11_Python](szazo/DHT11_Python), and referenced from [unims77/odroid_c1_dht11](https://github.com/unims77/odroid_c1_dht11).
+Based on [szazo/DHT11_Python](https://github.com/szazo/DHT11_Python), and referenced from [somnisomni/DHT11_Python_Odroid](https://github.com/somnisomni/DHT11_Python_Odroid).
 
-Tested on ODROID N2+. Might work on other ODROID SBCs, but if there's any issue, please report it!
+Tested on Orange pi zero 2w.
+
+require [wiringOP-Python](https://github.com/orangepi-xunlong/wiringOP-Python)
 
 
 # Installation
@@ -12,8 +14,8 @@ Tested on ODROID N2+. Might work on other ODROID SBCs, but if there's any issue,
 To install, clone this repository and setup:
 
 ```sh
-$ git clone https://github.com/somnisomni/DHT11_Python_Odroid
-$ cd DHT11_Python_Odroid
+$ git clone https://github.com/wwwhana/DHT11_Python_OP
+$ cd DHT11_Python_OP
 $ pip3 install .  # or with `sudo`
 ```
 
@@ -25,7 +27,7 @@ $ pip3 install .  # or with `sudo`
 For example:
 
 ```python
-import odroid_wiringpi as wiringpi
+import wiringpi
 import dht11
 
 # initialize WiringPi

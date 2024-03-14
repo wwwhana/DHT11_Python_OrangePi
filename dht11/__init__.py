@@ -1,5 +1,5 @@
 import time
-import odroid_wiringpi as wiringpi
+import wiringpi
 
 HIGH = 1
 LOW = 0

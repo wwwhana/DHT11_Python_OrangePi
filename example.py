@@ -1,4 +1,4 @@
-import odroid_wiringpi as wiringpi
+import wiringpi
 import dht11
 import time
 import datetime
@@ -7,7 +7,7 @@ import datetime
 wiringpi.wiringPiSetup()
 
 # read data using pin 4
-instance = dht11.DHT11(pin = 4)
+instance = dht11.DHT11(pin = 17)
 
 try:
   while True:

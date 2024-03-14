@@ -4,16 +4,16 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="odroid-dht11",
+    name="OP-dht11",
     version="0.1.0",
-    author="somni",
-    author_email="me@somni.one",
-    description="Pure Python library for reading DHT11 sensor on ODROID (based on 'szazo/DHT11_Python' and 'unims77/odroid_c1_dht11')",
+    author="lexia",
+    author_email="limlexia@gmail.com",
+    description="Pure Python library for reading DHT11 sensor on ORANGE PI",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/somnisomni/DHT11_Python_Odroid",
+    url="https://github.com/wwwhana/DHT11_Python_OrangePi",
     packages=find_packages(),
-    install_requires=["odroid-wiringpi"],
+    install_requires=[],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
